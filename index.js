@@ -26,7 +26,7 @@ function switchRight(){
 
 // function to assign the good image (from the array) to the good container when click
 
-function rotateImgLeft(imageNumber, ){
+function rotateImgLeft(imageNumber){
     let currentIndex = imageArray.indexOf(imageNumber.src);
     imageNumber.src = imageArray[(currentIndex + 1 + imageArray.length) % imageArray.length];
 }
