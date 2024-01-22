@@ -23,6 +23,7 @@ function switchRight(){
     rotateImgRight(secondImage);
     rotateImgRight(thirdImage);
 }
+swal("Here's the title!", "...and here's the text!");
 
 // function to assign the good image (from the array) to the good container when click
 
@@ -34,4 +35,3 @@ function rotateImgRight(imageNumber){
     let currentIndex = imageArray.indexOf(imageNumber.src);
     imageNumber.src = imageArray[(currentIndex - 1 + imageArray.length) % imageArray.length];
 }
-
