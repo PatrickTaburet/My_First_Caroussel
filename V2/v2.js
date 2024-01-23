@@ -48,7 +48,7 @@ function slideToLeft(){
     navBarStyle()
 }
 
-Change blue dot image position, 
+// Blue dot image position navbar, change with position value
 
 function navBarStyle(){
     let imageSources = ['/IMG/icons-circle-empty.png', '/IMG/icons-circle-full.png'];
@@ -67,7 +67,7 @@ function navBarStyle(){
     } 
 }
 
-    // change position of the slider when click on buttons navBar
+// change position of the slider when click on buttons navBar
 
 secondPoint.addEventListener("click", function(e) {
     if (position == 1){
